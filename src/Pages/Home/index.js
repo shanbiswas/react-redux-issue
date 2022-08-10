@@ -4,7 +4,7 @@ import { useSelector } from "react-redux/es/exports"
 import ProfileContext from "../../store/profile-context"
 
 const Home = () => {
-    // const isAuthenticated = useSelector(state => state.auth)
+    const isAuthenticated = useSelector(state => state.auth)
     const profileContext = useContext(ProfileContext)
 
     return (
